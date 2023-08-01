@@ -1,0 +1,11 @@
+<p>
+like-element works!
+</p>
+
+<button [class.active]="state === 1" (click)="addOneLike()">
+  Like | {{state === 1 ? likedNumber + 1 : likedNumber}} 
+</button>
+
+<button [class.active]="state === -1" (click)="addOneDisLike()">
+  Dislike | {{state === -1 ? dislikedNumber + 1 : dislikedNumber}} 
+</button>
