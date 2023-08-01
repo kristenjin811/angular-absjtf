@@ -1,4 +1,5 @@
-button {
+.like-button, 
+.dislike-button {
   font: 1rem;
   padding: 5 10;
   color: #585858;
